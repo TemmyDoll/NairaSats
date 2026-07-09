@@ -1,0 +1,31 @@
+{
+  "name": "nairasats",
+  "version": "0.1.0",
+  "description": "Naira to Bitcoin Lightning settlement gateway for African merchants",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "test": "jest",
+    "lint": "eslint src/",
+    "webhook-test": "node src/webhook-simulator.js"
+  },
+  "keywords": [
+    "bitcoin",
+    "lightning",
+    "paystack",
+    "africa",
+    "payments",
+    "merchant"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.18.0",
+    "axios": "^1.6.0",
+    "dotenv": "^16.3.0",
+    "crypto": "^1.0.1"
+  },
+  "devDependencies": {
+    "jest": "^29.0.0",
+    "eslint": "^8.0.0"
+  }
+}
