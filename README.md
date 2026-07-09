@@ -1,6 +1,6 @@
 # NairaSats
 
-> Built for the LAB Open Source Builders Fund. This is a reference archetype showing what a Wallet and Payment Infrastructure submission can look like. It is intentionally minimal so builders can see the shape of a fundable project without copying production code.
+> Built for the LAB Open Source Builders Fund. This is a reference archetype showing what a Wallet and Payment Infrastructure. It is intentionally minimal so builders can see the shape of a fundable project without copying production code.
 
 Reference implementation for accepting Naira payments via Paystack and settling into Bitcoin Lightning through a merchant wallet. Built for African merchants who want to hold value in Bitcoin without touching crypto rails themselves.
 
